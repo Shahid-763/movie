@@ -1,0 +1,38 @@
+/* MovieDetail.css */
+
+.movie-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the container */
+    background-color: black; /* Background color */
+    min-height: 100vh; /* Full height */
+  }
+  
+  .movie-title {
+    font-size: 2rem; /* Title size */
+    margin-bottom: 10px; /* Space below title */
+    font-weight: 800;
+   
+  }
+  
+  
+  
+  
+  
+  .trailer-container {
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center trailers horizontally */
+  }
+  
+  .trailer {
+    width: 100%; /* Full width of the trailer */
+    max-width: 600px; /* Max width for trailers */
+    height: 315px; /* Height for the iframe */
+    margin-bottom: 20px; /* Space below each trailer */
+  }
+  

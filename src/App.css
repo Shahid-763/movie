@@ -1,5 +1,13 @@
+
+html, body {
+  overflow-x: hidden;
+  margin: 0; /* Optional: reset default margin */
+  padding: 0; /* Optional: reset default padding */
+  width: 100%; /* Optional: ensure width is 100% */
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -14,7 +22,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,6 +31,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
