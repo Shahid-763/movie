@@ -85,15 +85,18 @@ export default function SearchAppBar({ handleDrawerToggle, onSearch }) {
               color: 'white',
               fontWeight: 700,
               fontSize: { xs: '18px', sm: '23px' }, // Adjust font size based on screen size
-              paddingLeft: { xs: 3, sm: 70 }, // Add padding on larger screens
+              paddingLeft: { xs: 0, sm: 70 }, 
+              paddingRight:{xs:2}// Add padding on larger screens
             }}
           >
             NETFLIX
           </Typography>
 
+
           {/* Search bar */}
-          <form onSubmit={handleSearch} style={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
-            <Search sx={{ display: { xs: 'block', sm: 'block' } }}> {/* Show search bar only on small screens and up */}
+          <form
+          onSubmit={handleSearch} style={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
+            <Search sx={{ display: { xs: 'block', sm: 'block' } ,width:{xs:'110px'}}}> {/* Show search bar only on small screens and up */}
               <SearchIconWrapper>
                 <span className="material-icons"></span>
               </SearchIconWrapper>
