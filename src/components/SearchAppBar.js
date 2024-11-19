@@ -31,7 +31,7 @@ import axios from "axios";
 import { TextField, Button, Grid, Typography, CircularProgress } from "@mui/material";
 import MovieCard from "./MovieCard"; // Adjust the import based on your project structure
 
-const API_KEY = "YOUR_TMDB_API_KEY"; // Replace with your actual API key
+const API_KEY = "ce07cbbca3b3f3e5f2b12dbc4aa85157"; // Replace with your actual API key
 const BASE_URL = "https://api.themoviedb.org/3";
 
 export default function SearchMovies() {

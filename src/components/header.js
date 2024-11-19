@@ -109,7 +109,8 @@ export default function SearchAppBar({ handleDrawerToggle, onSearch }) {
             </Search>
           </form>
 
-          {/* Login button */}
+        {/* Login button */}
+          <Button sx={{color:'white',fontSize:{xs:'12px',sm:'15px'}}} variant="outlined" >Sign In</Button>
          
         </Toolbar>
       </AppBar>
